@@ -27,12 +27,18 @@ const multiply = function(array) {
     return total;
 };
 
-const power = function() {
-	
+const power = function(x,y) {
+	return x ** y;
 };
 
-const factorial = function() {
-	
+const factorial = function(x) {
+  let factorial  = 1;
+  for(let i = 1; i<=x;i++){
+    factorial = i * factorial;
+
+  }
+	return factorial;
+
 };
 
 // Do not edit below this line
